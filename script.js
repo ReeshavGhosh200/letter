@@ -68,4 +68,5 @@ button.addEventListener("click", function(){
     });
     letters[0].style.color = "blue";
     letters[0].style.fontWeight = "1000";
+    button.style.display = "none";
 })
