@@ -1,0 +1,88 @@
+* {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 20px;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(6, 58, 107);
+}
+
+.head {
+  text-align: center;
+  background-color: skyblue;
+  padding: 10px;
+  border-radius: 20px;
+  width: 95vw;
+  margin-right: auto;
+  margin-left: auto;
+  border: 3px solid;
+  cursor: default;
+}
+
+#let {
+  background-color: lightblue;
+  padding: 10px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 98vw;
+  border-radius: 25px;
+  cursor: default;
+}
+#let .let {
+  font-size: 1em;
+}
+#let .let:nth-child(1) {
+  color: blue;
+  font-weight: 1000;
+}
+
+#text {
+  width: 98vw;
+  border-radius: 20px;
+  padding: 10px;
+  font-size: 20px;
+  border: none;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 5px;
+}
+
+.time .ct {
+  display: block;
+  font-size: 3em;
+  color: cyan;
+  text-align: center;
+  border: 2px solid;
+  border-radius: 20px;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+  width: 190px;
+  cursor: default;
+}
+
+button {
+  display: none;
+  margin-left: 20vw;
+  margin-top: 20px;
+  padding: 10px;
+  border: 2px transparent;
+  border-radius: 50px;
+  font-size: 20px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+button:hover {
+  background-color: dodgerblue;
+}
+
+@media (min-width: 470px) {
+  #let .let {
+    font-size: 1.3em;
+    letter-spacing: 10px;
+  }
+}/*# sourceMappingURL=style.css.map */
